@@ -55,9 +55,9 @@ function fecharPedido(){
 }
 function fazerPedido(){
     let url = `Olá, gostaria de fazer o pedido: 
-    - Prato: ${nomes[1]} 
+    - Prato: ${nomes[1]}
     - Bebida: ${nomes[2]} 
-    - Sobremesa: ${nomes[3]} 
+    - Sobremesa: ${nomes[3]}
     Total: ${total} `;
 
     url = encodeURIComponent(url);
